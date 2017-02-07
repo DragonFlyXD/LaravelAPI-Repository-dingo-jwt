@@ -14,6 +14,26 @@
 
   `chmod -R 777 storage`
 
+- step4: 将`.env.example`的内容复制到`.env`里,并配置里面的数据库信息与API信息。
+
+  ```
+  DB_CONNECTION=mysql
+  DB_HOST=127.0.0.1
+  DB_PORT=3306
+  DB_DATABASE=demo
+  DB_USERNAME=dragonfly
+  DB_PASSWORD=123456
+  ```
+
+  ```
+  API_STANDARDS_TREE=vnd
+  API_PREFIX=api
+  API_VERSION=v1
+  API_DEBUG=true
+  ```
+
+  ​
+
 - `To be continued`
 
 ------
